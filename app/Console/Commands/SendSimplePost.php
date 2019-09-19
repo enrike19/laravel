@@ -59,13 +59,7 @@ class SendSimplePost extends Command
            
             $content = $response->content;
             return $content;
-/*
-        $client = new \GuzzleHttp\Client();
 
-        $url = "https://atomic.incfile.com/fakepost";
-        $request = $client->post($url);
-
-        return $request->send();*/
     }
 
 
